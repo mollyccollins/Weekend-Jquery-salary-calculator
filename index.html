@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Vendors/jquery-3.6.0.min.js"></script>
+    <script src="Scripts/client.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Week 6 Assignment</title>
+</head>
+<body>
+    <h1>Salary Calculator</h1>
+    <div id="input">
+<select id="jobTitleIn">
+    <option>Jazz Singer</option>
+    <option>Captain</option>
+    <option>Robber Baroness</option>
+    <option>Story Teller</option>
+    <option>Troop Leader</option>
+    <option>Hippie</option>
+    <option>Warrior</option>
+    <option>Finance Bro</option>
+</select>
+<input type="text" placeholder="First Name" id="firstNameIn"/>
+<input type="text" placeholder="Last Name" id="lastNameIn"/>
+<input type="number" placeholder="Annual Salary" id="annualSalaryIn"/>
+<input type="number" placeholder="Employee ID" id="idNumberIn"/>
+<Button id="submitButton"> Submit </Button>
+</div>
+<div id="ouput">
+    <ul id="employeeOut">
+    </ul>
+    <h2 id="colorSalary">Total Salary Value: $<span id="salaryValueOut">10.00</span></h2>
+
+</div>
+</body>
+</html>
